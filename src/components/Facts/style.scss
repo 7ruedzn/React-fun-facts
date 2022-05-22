@@ -1,0 +1,24 @@
+main {
+    background-color: #353535;
+    padding: 30px;
+    background-image: url('../logo.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+
+    h1 {
+        color: #fff;
+        margin: 0px;
+    }
+    ul{   
+        color: skyblue;
+        li{
+            color: skyblue;
+            p{
+                color: #fff;
+            }
+            &::marker{
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

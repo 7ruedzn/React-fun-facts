@@ -1,0 +1,17 @@
+* { box-sizing: border-box;}
+
+body { margin: 0px; }
+
+html { font-family: 'Inter', sans-serif; }
+
+#root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1818;
+    background-image: url('../src/logo.svg');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
